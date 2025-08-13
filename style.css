@@ -158,7 +158,301 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+.features-love-enjoy{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.features-love-enjoy .space{
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 1440px;
+    max-height: 1059px;
+    /* height: 100%;
+    width: 100%; */
+}
+.features-love-enjoy .space .text{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 586px;
+    max-height: 982px;
+    padding: 1rem;
+}
+.features-love-enjoy .space .img{
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 1059px;
+} 
+.features-love-enjoy .space .text .line{
+    display: flex;
+    gap: 1rem;
+}
+.features-love-enjoy .space .text .line h3{
+    background-color: #FF900E;
+    padding: 0.2rem;
+    border-radius: 2px;
+    max-width: 5px;
+    max-height: 106px;
+}
+.features-love-enjoy .space .text .line h2{
+    max-width: 468px;
+    max-height: 106px;
+    font-size: 2.5rem;
+    line-height: auto;
+}
+.features-love-enjoy .space .text .text-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 586px;
+    max-height: 744px;
+}
+.features-love-enjoy .space .text .text-container p{
+    max-width: 586px;
+    max-height: 106px;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+.features-love-enjoy .space .text .box-container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    max-width: 586px;
+    max-height: 744px;
+}
+.features-love-enjoy .space .text .box-container .box{
+    width: 100%;
+    height: 100%;
+    max-width: 550px;
+    max-height: 171px;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.features-love-enjoy .space .text .box-container .box h3{
+    font-size: 20px;
+    max-width: 252px;
+    max-height: 23px;
+    font-weight: 600;
+}
+.features-love-enjoy .space .text .box-container .box p{
+    font-size: 16px;
+    max-width: 514px;
+    max-height: 78px;
+    margin-top: 0.5rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+.features-love-enjoy .space .img{
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 1059px;
+    display: flex;
+    flex-direction: column;
 
+}
+.features-love-enjoy .space .img img{
+    width: 100%;
+    height: 100%;
+    max-width: 708px;
+    max-height: 982px;
+}
+.features-love-enjoy .space .img button{
+    background-color: #FF900E;
+    border-radius: 8px;
+    border:none;
+    padding:1rem;
+    max-width: 342px;
+    max-height: 200px;
+}
+.some-facts{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.some-facts .container{
+    width: 100%;
+    height: 100%;
+    max-width: 1389.92px;
+    max-height: 470.92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+.some-facts .container .text h2{
+    line-height: auto;
+    font-size: 2.5rem;
+    letter-spacing: 0%;
+    max-width: 258px;
+    max-height: 53px;
+    font-weight: 700;
+}
+.some-facts .container .text p{
+    font-size: 1rem;
+    max-width: 542px;
+    max-height: 52px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    font-weight: 400;
+}
+.some-facts .container .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2rem;
+    max-width:1339.83px;
+    max-height: 241.83px;
+    height: 100%;
+    width: 100%;
+    gap: 5rem;
+}
+.some-facts .container .content .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    max-width: 241.83px;
+    max-height: 241.83px;
+    width: 100%;
+    height: 100%;
+    border:solid 2px #FF900E;
+}
+.some-facts .container .content .box .box-Element{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    max-width: 169px;
+    max-height: 136.22px;
+    width: 100%;
+    height: 100%;
+    gap:0px;
+}
+.some-facts .container .content .box .box-Element img{
+    max-width:45.22px ;
+    max-height: 45.22px;
+    width: 100%;
+    height: 100%;
+    margin:0.2rem;
+}
+.some-facts .container .content .box .box-Element h3{
+    max-width:150px;
+    max-height:53px;
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    letter-spacing: 0%;
+    font-weight: 600;
+    margin:0.2rem;
+}
+.some-facts .container .content .box .box-Element p{
+    max-width: 169px;
+    max-height: 23px;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0%;
+    margin:0.2rem;
+}
+.our-sponsors{
+    height: 100%;
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.our-sponsors .container{
+    max-width: 1439.67px;
+    max-height: 229px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.our-sponsors .container .text-Container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 542px;
+    max-height: 129px;
+    width: 100%;
+    height: 100%;
+}
+.our-sponsors .container .text-Container h2{
+    max-width: 327px;
+    max-height: 53px;
+    font-size: 2.5rem;
+    letter-spacing: 0%;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+.our-sponsors .container .text-Container p{
+    max-width: 542px;
+    max-height: 52px;
+    font-size: 1rem;
+    line-height: 26px;
+    letter-spacing: 0%;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+}
+.our-sponsors .container .content{
+    max-width: 1439.67px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+.our-sponsors .container .content .sponsor{
+    max-width: 166.76px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color: #FFF4E7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top:3rem;
+}
 
 
 /* responsive design  */
